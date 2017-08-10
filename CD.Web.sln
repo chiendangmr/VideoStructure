@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStructure", "VideoStructure\VideoStructure.csproj", "{D59AB54E-C82A-4C87-9BCE-685858747B1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CD.Web.Core", "VideoStructure\CD.Web.Core.csproj", "{D59AB54E-C82A-4C87-9BCE-685858747B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CD.Web.Videos", "CD.Web.Videos\CD.Web.Videos.csproj", "{8AACE38A-6FED-48ED-AC59-D6C8F81B6C93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D59AB54E-C82A-4C87-9BCE-685858747B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D59AB54E-C82A-4C87-9BCE-685858747B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D59AB54E-C82A-4C87-9BCE-685858747B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AACE38A-6FED-48ED-AC59-D6C8F81B6C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AACE38A-6FED-48ED-AC59-D6C8F81B6C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AACE38A-6FED-48ED-AC59-D6C8F81B6C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AACE38A-6FED-48ED-AC59-D6C8F81B6C93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
